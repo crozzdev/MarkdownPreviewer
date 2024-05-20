@@ -21,6 +21,16 @@ body {
   font-weight: 400;
   line-height: 1.5;
   margin: 10px 0;
+  gap: 20px;
+  min-height: 100vh;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
 }
 
 
@@ -47,8 +57,13 @@ body {
   margin-left: auto;
 }
 
+.header .cross_svg:hover {
+  fill: var(--blue-sky-bg);
+  cursor: pointer;
+}
+
 #editorWrapper>textarea {
-  width: 99%;
+  width: 100%;
   min-height: 200px;
   margin-bottom: -5px;
   resize: vertical;
@@ -66,11 +81,25 @@ body {
   overflow-wrap: break-word;
 }
 
+.expanded-window {
+  width: 96%;
+  min-height: 100vh;
+  margin: auto;
+}
+
+.hide {
+  display: none;
+}
+
 .text-box {
   background-color: var(--blue-sky-editor);
   border: 1px solid #1d2f2f;
   box-shadow: 1px 1px 10px 2px #3a5f5f;
   border-top: none;
+}
+
+footer {
+  margin-top: auto;
 }
 
 @media screen and (max-width: 850px) {
