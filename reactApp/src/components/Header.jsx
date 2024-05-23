@@ -1,21 +1,17 @@
 /* eslint-disable react/prop-types */
+import RocketIcon from '../assets/rocket.svg?react';
+import CollapseIcon from '../assets/collapse_icon.svg?react';
+import ExpandIcon from '../assets/cross_expand.svg?react';
 import './Header.css'
-import rocketIcon from '../assets/rocket.svg'
-import collapseIcon from '../assets/collapse_icon.svg'
-import expandIcon from '../assets/cross_expand.svg'
-
 
 export const Header = ({ title, isExpanded, expandWindow }) => {
-
-    const iconToShow = isExpanded ? { src: collapseIcon, alt: "collapse_icon" } : { src: expandIcon, alt: "expand_icon" }
+    const IconToShow = isExpanded ? CollapseIcon : ExpandIcon;
 
     return (
         <div className='header'>
-            <img src={rocketIcon} className="svg-icon" alt="rocket-icon" />
+            <RocketIcon className="svg-icon-left" alt="rocket-icon" />
             <span>{title}</span>
-            <img className='svg-icon' src={iconToShow.src} alt={iconToShow.alt} onClick={expandWindow} />
+            <IconToShow className='svg-icon-right' onClick={expandWindow} />
         </div>
-
     )
-
 }

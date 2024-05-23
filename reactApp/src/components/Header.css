@@ -11,3 +11,12 @@
     color: black;
     background-color: var(--blue-sky-header);
 }
+
+.header .svg-icon-right {
+    margin-left: auto;
+}
+
+.header .svg-icon-right:hover {
+    fill: var(--blue-sky-bg);
+    cursor: pointer;
+}

@@ -1,3 +1,9 @@
+:root {
+  --blue-sky-bg: #CAF4FF;
+  --blue-sky-editor: #A0DEFF;
+  --blue-sky-header: #5AB2FF;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -10,7 +16,6 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-weight: 400;
-  line-height: 1.5;
   min-height: 100vh;
+  margin: 10px 0;
 }
