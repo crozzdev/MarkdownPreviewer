@@ -9,7 +9,7 @@ Both projects have successfully passed the tests which are available in this [co
 
 ## Important notes
 
-- The vanilla version was built only for practicing purposes, you should review the reactVersion if you want to see React in action. Although both passes the test, you should submit the React version which is the main idea of the fCC frontEnd libraries certification.
+- The vanilla version was built only for practicing purposes, you should review the React version if you want to see, well, React in action. Although both versions pass the tests, you should review and submit the React version which is the main idea of the fCC frontEnd libraries certification.
 - All contributions are welcomed by opening an issue or submitting a pull request.
 
 A big thanks to [freeCodeCamp](https://www.freecodecamp.org/) for giving me the needed lessons for this project!
